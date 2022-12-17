@@ -33,6 +33,7 @@ public class Main {
         return uniqueDouble;
     }
 
+
     public static void main(String[] args) {
         double[] array = {0.0, 0.0, 0.0, 0.0, 0.0, 2.0, 6.0, 6.0, 8.0, 8.0};
         System.out.println("The unique number is: " + findUnique(array));
@@ -44,5 +45,8 @@ public class Main {
         System.out.print("Array of sorted odd numbers: ");
         Arrays.stream(array2).forEach(n -> System.out.print(n + " "));
 
+
+        Time time = new Time(359999);
+        time.printTime();
     }
 }
